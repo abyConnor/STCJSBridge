@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				738407F01ED6CAC100D3457D /* webview_demo */,
-				73DABAA01ED2E58700F597DB /* STCWebView */,
+				73DABAA01ED2E58700F597DB /* STCJSBridge */,
 				73DABA7F1ED2CC3A00F597DB /* AppDelegate.h */,
 				73DABA801ED2CC3A00F597DB /* AppDelegate.m */,
 				73DABA821ED2CC3A00F597DB /* ViewController.h */,
@@ -164,7 +164,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73DABAA01ED2E58700F597DB /* STCWebView */ = {
+		73DABAA01ED2E58700F597DB /* STCJSBridge */ = {
 			isa = PBXGroup;
 			children = (
 				7375D0411ED7BBE40078787A /* UIWebView+STCJSContext.h */,
@@ -187,7 +187,7 @@
 				732C75011ED7CE9F00003936 /* STCHandlerManager.h */,
 				732C75021ED7CE9F00003936 /* STCHandlerManager.m */,
 			);
-			path = STCWebView;
+			path = STCJSBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
